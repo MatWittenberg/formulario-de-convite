@@ -34,14 +34,3 @@
   --text-heading: #F9F9F9;
 }
 
-/* teste */
-#invitation{
-  font: var(--logo);
-  background-color: var(--brand-light); 
-  display: grid;
-  grid-template-columns: 51.25% 48.75%;
-
-  height: 100vh;
-
-  color: var(--text-heading);
-}

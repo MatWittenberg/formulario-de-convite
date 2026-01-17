@@ -1,0 +1,33 @@
+#invitation{
+  background-color: var(--shape-background);
+  display: grid;
+  grid-template-columns: 32.78% 67.22%;
+  gap: 1.25rem;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+main{
+  padding: 2rem;
+  background-image: url(../assets/Background.png);
+  background-size: cover;
+  border-radius: .75rem;
+  
+  & .main-container{
+    max-width: 21rem;
+    margin: auto;
+  }
+
+}
+
+aside{
+  overflow: auto;
+  background-color: var(--shape-body);
+  padding: 5rem 8.125rem;
+  
+  & .aside-container{
+    max-width: 35rem;
+  }
+
+}
