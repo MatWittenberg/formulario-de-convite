@@ -53,6 +53,11 @@ img{
   height: auto;
 }
 
+.flex-legend{
+  display: flex;
+  gap: .75rem;
+}
+
 /* .flex{
   display: flex;
 }

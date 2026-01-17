@@ -1,0 +1,26 @@
+input, textarea, select{
+  appearance: none;
+  width: 100%;
+  border-radius: .666rem;
+  border: 1px solid var(--input-stroke);
+  background-color: var(--input-base);
+
+  padding: .8125rem 1rem;
+  font: var(--body-md);
+}
+
+label{
+  font: var(--body-sm);
+  color: var(--text-body);
+
+  display: block;
+  margin-bottom: .75rem;
+}
+
+
+/* em foco */
+input:focus, select:focus, textarea:focus{
+  outline: none;
+  border: 1px solid var(--brand-light);
+  outline-offset: .1px;
+}
