@@ -8,15 +8,32 @@
   overflow: hidden;
 }
 
-main{
+main {
   padding: 2rem;
-  background-image: url(../assets/Background.png);
+  background: url(../assets/Background.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  
   border-radius: .75rem;
   
-  & .main-container{
+  & .main-container {
     max-width: 21rem;
     margin: auto;
+  }
+
+  h1 {
+    color: var(--pink);
+    font: var(--logo);
+  }
+
+  p {
+    color: var(--text-body);
+    font: var(--body-md);
+  }
+
+  img {
+    height: auto;
+    margin-bottom: 16px;
   }
 
 }
@@ -28,6 +45,12 @@ aside{
   
   & .aside-container{
     max-width: 35rem;
+  }
+
+  h1{
+    color: var(--text-body);
+    font: var(--heading-md);
+    margin-bottom: 2.5rem;
   }
 
 }
