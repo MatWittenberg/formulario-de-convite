@@ -10,7 +10,7 @@
 
 main {
   padding: 2rem;
-  background: url(../assets/Background.png);
+  background-image: url(../assets/Background.png);
   background-size: cover;
   background-repeat: no-repeat;
   
@@ -35,7 +35,6 @@ main {
     height: auto;
     margin-bottom: 16px;
   }
-
 }
 
 aside{
