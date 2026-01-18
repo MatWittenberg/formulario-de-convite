@@ -42,4 +42,7 @@ input[type="datetime-local"]{
   gap: 1rem;
 }
 
+label + .radio-wrapper{
+  margin-top: 1rem;
+}
 
