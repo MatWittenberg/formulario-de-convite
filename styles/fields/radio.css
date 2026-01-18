@@ -31,4 +31,28 @@
 
 }
 
+label + .radio-wrapper{
+  margin-top: 1rem;
+}
 
+.radio-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(2.5rem, 1fr));
+}
+
+.color-option input {
+  display: none;
+}
+
+.circle {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: .1875rem solid transparent;
+  cursor: pointer;
+}
+
+.color-option input:checked + .circle {
+  border-color: var(--brand-light);
+}
