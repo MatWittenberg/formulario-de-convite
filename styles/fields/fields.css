@@ -4,10 +4,17 @@ input, textarea, select{
   border-radius: .666rem;
   border: 1px solid var(--input-stroke);
   background-color: var(--input-base);
+  color: var(--input-placeholder);
 
   padding: .8125rem 1rem;
   font: var(--body-md);
+
+  &::placeholder{
+    color: var(--input-placeholder);
+    font: var(--body-md);
+  }
 }
+
 
 label{
   font: var(--body-sm);
@@ -24,3 +31,9 @@ input:focus, select:focus, textarea:focus{
   border: 1px solid var(--brand-light);
   outline-offset: .1px;
 }
+
+.event-info .flex{
+  gap: 1rem;
+}
+
+

@@ -35,7 +35,6 @@
     
         <form>
           <fieldset class="event-info">
-            
             <legend class="flex-legend"><img src="assets/icons/calendar.svg" alt="">Sobre o evento</legend>
     
             <div class="input-wrapper">
@@ -44,35 +43,47 @@
             </div>
     
             <div class="flex">
-              <div class="input-wrapper flex-2">
+              <div class="input-wrapper flex-1">
                 <label for="initialevent">Início</label>
                 <input type="date" id="initialevent" name="initialevent" lang="pt-br">
               </div>
-            </div>
-    
-            <div class="input-wrapper flex-1">
-              <label for="endevent">Fim</label>
-              <input type="date" id="endevent" name="endevent" lang="pt-br">
-            </div>
-
-            <!-- MODIFICAR -->
-            <div class="flex">
-              <div class="input-wrapper flex-2">
-                <label for="typeonof">Tipo</label>
-                <input type="text" id="typeonof" name="typeonof">
+            
+              <div class="input-wrapper flex-1">
+                <label for="endevent">Fim</label>
+                <input type="date" id="endevent" name="endevent" lang="pt-br">
               </div>
             </div>
-    
+            
+            <div class="flex">
+              <div class="input-wrapper flex-1">
+                <label>Tipo</label>
+            
+                <div class="input-wrapper">
+                  <input type="radio" id="presencial" name="type-event" value="presencial" checked>
+                  <label for="presencial">
+                    <img src="assets/icons/in-person.svg" alt="Ícone de prédio">
+                    <p>Presencial</p>
+                  </label>
+            
+                  <input type="radio" id="online" name="type-event" value="online">
+                  <label for="online">
+                    <img src="assets/icons/online.svg" alt="Ícone de câmera">
+                    <p>Online</p>
+                  </label>
+                </div>
+              </div>
+            
             <div class="input-wrapper flex-1">
               <label for="adress">Local</label>
               <input type="text" id="adress" name="adress" placeholder="Link ou endereço">
             </div>
+            </div>
 
             <div class="textarea-wrapper">
               <label for="detail-info">Descrição</label>
-              <textarea name="detail-info" id="detail-info" cols="30" rows="10" placeholder="Escreva sobre os detalhes do evento"></textarea>
+              <textarea name="detail-info" id="detail-info" cols="30" rows="10"
+                placeholder="Escreva sobre os detalhes do evento"></textarea>
             </div>
-
           </fieldset>
         </form>
       </div>

@@ -58,14 +58,9 @@ img{
   gap: .75rem;
 }
 
-/* .flex{
+.flex{
   display: flex;
 }
-
 .flex-1{
-  flex: 1;
-}
-
-.flex-2{
   flex: 2;
-} */
+}

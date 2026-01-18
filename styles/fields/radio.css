@@ -1,0 +1,26 @@
+.radio-to-choose{
+  display: flex;
+  background-color: var(--input-base);
+  border-radius: .5rem;
+  border: 1px solid var(--input-stroke);
+
+  & input{
+    border-radius: .25rem;
+    display: none;
+  
+  }
+
+  & label{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: .75rem;
+    align-items: center;
+    color: var(--text-heading);
+    font: var(--body-sm);
+  }
+
+}
+
+
+
