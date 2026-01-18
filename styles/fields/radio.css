@@ -1,26 +1,32 @@
 .radio-to-choose{
-  display: flex;
   background-color: var(--input-base);
-  border-radius: .5rem;
+  display: flex;
+  height: 3rem;
   border: 1px solid var(--input-stroke);
-
-  & input{
-    border-radius: .25rem;
-    display: none;
+  border-radius: .5rem;
+  overflow: hidden;
+  cursor: pointer;
   
+  & input[type="radio"]{
+    display: none;
   }
 
   & label{
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    margin-top: .75rem;
-    align-items: center;
-    color: var(--text-heading);
-    font: var(--body-sm);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .75em;
+  margin: 0.33rem;
+  gap: .5rem;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: .5rem;
+  }
+ 
+
+  & input:checked + label{
+  background-color: var(--shape-button);
   }
 
 }
-
-
-
