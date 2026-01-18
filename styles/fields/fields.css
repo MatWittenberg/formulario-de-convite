@@ -23,7 +23,6 @@ label{
   margin-bottom: .75rem;
 }
 
-
 /* em foco */
 input:focus, 
 select:focus, 
@@ -32,6 +31,12 @@ radio:focus{
   outline: none;
   border: 1px solid var(--brand-light);
   outline-offset: .1px;
+}
+
+input[type="datetime-local"]{
+  &::-webkit-calendar-picker-indicator{
+    display: none;
+  }
 }
 
 .event-info .flex{
