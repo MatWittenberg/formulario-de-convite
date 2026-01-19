@@ -1,0 +1,41 @@
+.radio-wrapper-themes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.375rem, 1fr));
+  gap: .5rem;
+}
+
+.radio-inner-card {
+  background-color: var(--input-stroke);
+  border-radius: .5rem;
+  overflow: hidden;
+  padding: .25rem;
+
+  display: flex;
+  flex-direction: column;
+
+  & img {
+  width: 100%;
+  }
+
+  & label{
+    color: var(--text-heading);
+    font: var(--body-sm);
+    margin: .5rem .25rem;
+    text-align: center
+  }
+  
+  position: relative;
+  & input,
+  & input:focus,
+  & input:hover{
+    all: unset;
+    position: absolute;
+    inset: 0;
+  }
+
+  &:focus-within{
+    outline: 1px solid var(--brand-light);
+  }
+
+}
+

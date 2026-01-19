@@ -24,7 +24,6 @@
   border-radius: .5rem;
   }
  
-
   & input:checked + label{
   background-color: var(--shape-button);
   }
