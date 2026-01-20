@@ -1,4 +1,4 @@
-.style-wrapper{
+.style-wrapper {
   display: flex;
   align-items: center;
   gap: .75rem;
@@ -11,23 +11,17 @@
 }
 
 .dark-card-style {
-  height: 2rem;
-  width: 4rem;
   background-color: var(--input-base);
   border: 1px solid var(--input-stroke);
   border-radius: 1rem;
+  width: 4rem;
+  height: 2rem;
   padding: .25rem;
+  
   display: flex;
   align-items: center;
   justify-content: flex-start;
   position: relative;
-}
-
-.button-dark {
-  height: 1.5rem;
-  width: 1.5rem;
-  border-radius: 50%;
-  background-color: var(--input-stroke);
 }
 
 .dark-card-style input {
@@ -45,8 +39,14 @@
   & .button-dark {
     transform: translateX(1.8rem);
     background-color: var(--text-heading);
-    transition: transform .25s ease, background-color .25s ease;
   }
+}
+
+.button-dark {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--input-stroke);
 }
 
 .style-wrapper p {
