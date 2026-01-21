@@ -39,7 +39,7 @@ input[type="datetime-local"]{
   }
 }
 
-.event-info .flex{
+.event-info .flex, .contact-details .flex{
   gap: 1rem;
 }
 
