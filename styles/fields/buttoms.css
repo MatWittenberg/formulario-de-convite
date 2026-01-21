@@ -1,0 +1,23 @@
+button{
+  all: unset;
+  
+  font: 600 1rem var(--font-family-body);
+  color: var(--text-heading);
+  padding: .8125rem 1.25rem;
+
+  border-radius: .5rem;
+  cursor: pointer;
+
+  &.btn-generate-fom{
+    display: flex;
+    align-items: center;
+    background-color: var(--brand-dark);
+    gap: .75rem;
+  }
+}
+
+.actions-warapper{
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
