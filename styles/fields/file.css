@@ -1,0 +1,45 @@
+.file-area{
+  margin-left: 6rem;
+}
+
+.file-wrapper{
+  display: flex;
+  justify-items: center;
+  align-items: baseline;
+  gap: .75rem;
+
+  position: relative;
+  & input{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+  }
+
+  & .text-file{
+    font: var(--body-sm);
+    color: var(--input-placeholder);
+  }
+}
+
+.btn-file{
+  display: flex;
+  place-items: center;
+  gap: .5rem;
+  padding: .75rem;
+  border-radius: .25rem;
+  background-color: var(--shape-button);
+  
+  & p{
+  font: var(--body-sm);
+  color: var(--text-heading);
+  }
+
+  & img{
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+.file-wrapper:hover .btn-file{
+  background-color: var(--brand-mid);
+}

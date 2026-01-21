@@ -41,9 +41,11 @@ aside{
   overflow: auto;
   background-color: var(--shape-body);
   padding: 5rem 8.125rem;
+  border-radius: .75rem;
   
   & .aside-container{
     max-width: 35rem;
+    
   }
 
   h1{
